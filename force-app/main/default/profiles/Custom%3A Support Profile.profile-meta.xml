@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>Calculator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Certification__c.Awarding_body__c</field>
+        <field>Certification__c.Cost__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Certification__c.Discounted_price__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
