@@ -7,12 +7,22 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Certification__c.Certification_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Certification__c.Cost__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Certification__c.Discounted_price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Certification__c.Expires__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
